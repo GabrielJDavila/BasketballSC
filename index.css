@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: dodgerblue;
+    font-family: 'Bungee Inline', cursive
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.home-score,
+.guest-score {
+    background: black;
+    color: red;
+    padding: .5em 0;
+}
+
+.btn {
+    background: goldenrod;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#new-game {
+    margin-top: 1em;
+    background: green;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: .5em;
+    font-family: 'Bungee Inline', cursive;
+}
+
+.hide {
+    display: none;
+}
+
+.lead {
+    color: green;
+}
+
+.behind {
+    color: red;
+}
